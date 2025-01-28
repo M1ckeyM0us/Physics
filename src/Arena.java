@@ -33,6 +33,9 @@ public class Arena extends JPanel{
 
     public void paintComponent(Graphics g){
 
+        // not mine I just wanted to add it for smoother program
+        super.paintComponent(g); // Clears the screen
+
         for(Ball ball: bals){
 
             ball.draw(g);
@@ -45,7 +48,7 @@ public class Arena extends JPanel{
         //pausing the computer
         try{
 
-            Thread.sleep(50);
+            Thread.sleep(10);
 
         }
 
