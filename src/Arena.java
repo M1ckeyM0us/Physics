@@ -35,9 +35,9 @@ public class Arena extends JPanel{
 
         for(Ball ball: bals){
 
-            bals.draw(g);
-            bals.move();
-            bals.bounce(this);
+            ball.draw(g);
+            ball.move();
+            ball.bounce(this);
 
         }
 
